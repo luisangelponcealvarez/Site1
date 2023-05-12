@@ -2,4 +2,35 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background-image: url(./img/bg-image\ 1.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100vh;
+}
+
+/* heder */
+
+#ContainerHeder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 2em 3em;
+}
+
+#menu {
+  display: inline-block;
+  margin: 10px;
+}
+
+#menu ul li {
+  float: left;
+  margin: 10px;
+}
+
+#menu ul li a {
+  color: #fff;
 }
