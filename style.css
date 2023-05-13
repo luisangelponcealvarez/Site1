@@ -45,12 +45,12 @@ body {
 
 /* container */
 
-main {
+/* main {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-}
+} */
 
 /* inicio */
 
@@ -71,28 +71,28 @@ main .inicio i {
 
 /* Info */
 
-#info {
+#ABOUT {
   width: 100%;
 }
 
-#info .container {
+#ABOUT .container {
   display: flex;
   position: absolute;
   top: 60em;
   text-align: left;
-  padding: 6em;
+  padding: 76px;
 }
 
-#info .text {
+#ABOUT .text {
   margin: 2em;
 }
 
-#info .text h1,
+#ABOUT .text h1,
 h3,
 p {
   margin: 11px;
 }
 
-#info img {
+#ABOUT img {
   width: 400px;
 }
