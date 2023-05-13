@@ -81,6 +81,7 @@ body {
 }
 
 #Info .text {
+  width: 50%;
   margin: 2em;
 }
 
@@ -92,6 +93,33 @@ p {
 
 #Info img {
   width: 400px;
+}
+
+@media (max-width: 900px) {
+  #Info .container {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 46em;
+    text-align: left;
+    padding: 6em;
+  }
+
+  #Info .text {
+    margin: 0px;
+  }
+
+  #Info .text h1,
+  h3,
+  p {
+    margin: 11px;
+  }
+
+  #Info img {
+    display: flex;
+    align-items: center;
+    width: 200px;
+  }
 }
 
 /* spesializing */
