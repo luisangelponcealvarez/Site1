@@ -8,10 +8,15 @@
   list-style: none;
 }
 
+h3 {
+  color: #4c70ef;
+}
+
 body {
   background-image: url(./img/bg-image\ 1.png);
   background-repeat: no-repeat;
   background-size: 100% 100vh;
+  background-color: #212121;
   color: #fff;
 }
 
@@ -47,6 +52,8 @@ main {
   text-align: center;
 }
 
+/* inicio */
+
 main .inicio {
   position: absolute;
   top: 18em;
@@ -60,4 +67,32 @@ main .inicio .redes {
 main .inicio i {
   margin: 10px;
   font-size: 20px;
+}
+
+/* Info */
+
+#info {
+  width: 100%;
+}
+
+#info .container {
+  display: flex;
+  position: absolute;
+  top: 60em;
+  text-align: left;
+  padding: 6em;
+}
+
+#info .text {
+  margin: 2em;
+}
+
+#info .text h1,
+h3,
+p {
+  margin: 11px;
+}
+
+#info img {
+  width: 400px;
 }
