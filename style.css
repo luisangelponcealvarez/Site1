@@ -40,21 +40,17 @@ body {
 
 /* container */
 
-main {
+.inicio {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-}
-
-main .inicio {
-  position: absolute;
-  top: 18em;
+  margin-top: 11em;
 }
 
 main .inicio .redes {
   margin: 10px;
-  align-items: center;
 }
 
 main .inicio i {
