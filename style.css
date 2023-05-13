@@ -45,8 +45,9 @@ body {
 
 /* container */
 
-main {
+.inicio {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -54,17 +55,15 @@ main {
 
 /* inicio */
 
-main .inicio {
-  position: absolute;
-  top: 18em;
+.inicio {
+  margin-top: 11em;
 }
 
-main .inicio .redes {
+.inicio .redes {
   margin: 10px;
-  align-items: center;
 }
 
-main .inicio i {
+.inicio i {
   margin: 10px;
   font-size: 20px;
 }
