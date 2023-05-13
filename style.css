@@ -43,7 +43,7 @@ body {
   color: #fff;
 }
 
-/* container */
+/* inicio */
 
 .inicio {
   display: flex;
@@ -52,8 +52,6 @@ body {
   align-items: center;
   text-align: center;
 }
-
-/* inicio */
 
 .inicio {
   margin-top: 11em;
@@ -70,28 +68,28 @@ body {
 
 /* Info */
 
-#info {
+#Info {
   width: 100%;
 }
 
-#info .container {
+#Info .container {
   display: flex;
   position: absolute;
-  top: 60em;
+  top: 46em;
   text-align: left;
   padding: 6em;
 }
 
-#info .text {
+#Info .text {
   margin: 2em;
 }
 
-#info .text h1,
+#Info .text h1,
 h3,
 p {
   margin: 11px;
 }
 
-#info img {
+#Info img {
   width: 400px;
 }
