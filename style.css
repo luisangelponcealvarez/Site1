@@ -76,12 +76,12 @@ body {
   display: flex;
   position: absolute;
   top: 46em;
-  text-align: left;
   padding: 76px;
 }
 
 #Info .text {
   margin: 2em;
+  text-align: center;
 }
 
 #Info .text h1,
