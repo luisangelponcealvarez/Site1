@@ -6,7 +6,7 @@ Este proyecto es un sitio web desarrollado con html css para practicar las dos h
 
 ## Miniatura
 
-![miniatura](./img/miniatura.jpeg)
+![miniatura](./img/miniatura.png)
 
 ### Sitio
 
