@@ -1,0 +1,116 @@
+/* background */
+
+@media (max-width: 900px) {
+  body {
+    background-image: url(./img/bg-image\ 1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    background-color: #212121;
+    color: #fff;
+  }
+}
+
+/* info */
+
+@media (max-width: 900px) {
+  #Info .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 50em;
+    text-align: left;
+  }
+
+  #Info .text {
+    width: 100%;
+    margin: 0px;
+  }
+
+  #Info .text h1,
+  h3,
+  p {
+    margin: 11px;
+  }
+
+  #Info img {
+    width: 200px;
+  }
+}
+
+/* spesializing */
+
+@media (max-width: 900px) {
+  #Spesializing .position {
+    position: absolute;
+    top: 91em;
+    padding: 10px;
+  }
+
+  #Spesializing .contCard {
+    display: flex;
+  }
+
+  #Spesializing .card {
+    width: 300px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: #292c36;
+  }
+}
+
+/* proyects */
+
+@media (max-width: 900px) {
+  #Proyects .containerProyects {
+    position: absolute;
+    top: 135em;
+  }
+
+  #Proyects .containerProyects h3,
+  h1 {
+    text-align: center;
+  }
+
+  #Proyects .contProyects {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+  }
+
+  #Proyects .contProyects .proyect {
+    width: 300px;
+    margin: 10px;
+    padding: 14px;
+    border-radius: 20px;
+    background-color: #292c36;
+  }
+
+  #Proyects .contProyects .proyect h2,
+  a {
+    margin: 10px;
+  }
+
+  #Proyects .contProyects .proyect img {
+    width: 100%;
+    border-radius: 20px;
+  }
+
+  #Proyects .contProyects .proyect .bc {
+    background-color: #558fff;
+    border-radius: 5px;
+    padding: 4px;
+  }
+}
+
+/* footer */
+
+@media (max-width: 900px) {
+  #Contact {
+    position: absolute;
+    top: 205em;
+  }
+}
