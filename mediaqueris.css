@@ -49,6 +49,7 @@
 
   #Spesializing .contCard {
     display: flex;
+    flex-direction: column;
   }
 
   #Spesializing .card {
